@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+#player_heading {
+  display: flex;
+  justify-content: space-between;
+}
+#play_panel {
+  //display: none;
+}
+
+.user_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+.user_item:nth-child(odd) {
+  background: #efefef
+}
+
+.user {
+
+}
+
+.score {
+
+}
+
+.user_score {
+  
+}
+
+#enter_name {
+  //display: none;
+}
+
+#entry {
+  padding-top: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#entry_item {
+}
+
+#username {
+  margin-right: 8px;
+}
+
+.input_warn {
+  color: #525252;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.self {
+  font-weight: bold;
+}
+.self:after {
+  font-weight: normal;
+  content: " (you)";
+}
+#respond {
+  margin-top: 20px;
+  text-align: center;
+}
+#answer_button {
+  font-size: 28px;
+  font-weight: bold;
+  width: 100%;
+  max-width: 500px;
+}
+#answer_order > p:nth-of-type(1):after {
+  content: ' 1st';
+}
+#answer_order > p:nth-of-type(2):after {
+  content: ' 2nd';
+}
+#answer_order > p:nth-of-type(3):after {
+  content: ' 3rd';
+}
